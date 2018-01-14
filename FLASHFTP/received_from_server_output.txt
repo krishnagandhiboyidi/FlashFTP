@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<float.h>
+//#ifdef DBL_DECIMAL_DIG;
+//#define OP_DBL_Digs(DBL_DECIMAL_DIG)
+int main(){
+float f =3.666666666666666666;
+printf("%.*f\n", FLT_DECIMAL_DIG, f);
+return 0;
+}
